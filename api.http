@@ -9,15 +9,10 @@ GET http://localhost:3000/post?title=sd
 ###
 
 GET http://localhost:3000/post?title=asd
+
 ###
 
 DELETE http://localhost:3000/post/1
-
-
-
-
-
-GET http://localhost:3000/post/search/2
 
 ###
 
@@ -28,3 +23,14 @@ Content-Type: application/json
   "title": "titlee",
   "content": "contentss"
 }
+
+###
+
+PUT http://localhost:3000/post/2
+Content-Type: application/json
+
+{
+  "title": "holly",
+  "content": "molly"
+}
+
