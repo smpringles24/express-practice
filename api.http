@@ -1,0 +1,30 @@
+GET http://localhost:3000/post
+
+###
+GET http://localhost:3000/post?id=1
+
+###
+GET http://localhost:3000/post?title=sd
+
+###
+
+GET http://localhost:3000/post?title=asd
+###
+
+DELETE http://localhost:3000/post/1
+
+
+
+
+
+GET http://localhost:3000/post/search/2
+
+###
+
+POST http://localhost:3000/post
+Content-Type: application/json
+
+{
+  "title": "titlee",
+  "content": "contentss"
+}
